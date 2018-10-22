@@ -6,7 +6,7 @@
 
 A representation of an entity describing information about a particular person or organization, consisting of contact information (e.g. name, e-mail addresses, phone numbers) and other descriptive information of interest.
 
-[Demo](https://party.herokuapp.com/v1/parties)
+[Demo](https://pa-rty.herokuapp.com/v1/parties)
 
 ## Requirements
 
@@ -37,7 +37,7 @@ app.start((error, env) => {
 ```
 
 ## Demo
-[View Demo](https://party.herokuapp.com/v1/parties)
+[View Demo](https://pa-rty.herokuapp.com/v1/parties)
 [View apidoc](https://lykmapipo.github.io/party/)
 
 ## Testing
