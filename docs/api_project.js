@@ -1,0 +1,20 @@
+define({
+  "name": "Party",
+  "version": "1.0.0",
+  "description": "A representation of an entity describing information about a particular person or organization, consisting of contact information (e.g. name, e-mail addresses, phone numbers) and other descriptive information of interest.",
+  "title": "Party",
+  "url": "https://pa-rty.herokuapp.com/v1",
+  "sampleUrl": "https://pa-rty.herokuapp.com/v1",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  },
+  "defaultVersion": "0.0.0",
+  "apidoc": "0.3.0",
+  "generator": {
+    "name": "apidoc",
+    "time": "2018-10-22T16:03:19.165Z",
+    "url": "http://apidocjs.com",
+    "version": "0.17.6"
+  }
+});
