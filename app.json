@@ -7,7 +7,11 @@
     "mongoose",
     "party",
     "user",
-    "identity"
+    "identity",
+    "institution",
+    "organization",
+    "person",
+    "people"
   ],
   "addons": [
     "mongolab"

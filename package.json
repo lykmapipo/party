@@ -16,15 +16,17 @@
     "mongoose",
     "party",
     "user",
-    "identity"
+    "identity",
+    "institution",
+    "organization",
+    "person",
+    "people"
   ],
-  "contributors": [
-    {
-      "name": "lykmapipo",
-      "email": "lallyelias87@gmail.com",
-      "url": "https://github.com/lykmapipo"
-    }
-  ],
+  "contributors": [{
+    "name": "lykmapipo",
+    "email": "lallyelias87@gmail.com",
+    "url": "https://github.com/lykmapipo"
+  }],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lykmapipo/party/issues",
@@ -36,8 +38,7 @@
     "apidoc": "https://lykmapipo.github.io/party/",
     "client_id": "",
     "client_secret": "",
-    "urls": [
-      {
+    "urls": [{
         "resource": "Party",
         "schema": "https://party.herokuapp.com/v1/parties/schema",
         "link": "https://party.herokuapp.com/v1/parties",
