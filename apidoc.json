@@ -2,8 +2,8 @@
   "name": "Party",
   "title": "Party",
   "version": "1.0.0",
-  "url": "https://party.herokuapp.com/v1",
-  "sampleUrl": "https://party.herokuapp.com/v1",
+  "url": "https://pa-rty.herokuapp.com/v1",
+  "sampleUrl": "https://pa-rty.herokuapp.com/v1",
   "template":
   {
     "withCompare": true,

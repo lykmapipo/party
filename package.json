@@ -22,11 +22,13 @@
     "person",
     "people"
   ],
-  "contributors": [{
-    "name": "lykmapipo",
-    "email": "lallyelias87@gmail.com",
-    "url": "https://github.com/lykmapipo"
-  }],
+  "contributors": [
+    {
+      "name": "lykmapipo",
+      "email": "lallyelias87@gmail.com",
+      "url": "https://github.com/lykmapipo"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lykmapipo/party/issues",
@@ -34,14 +36,15 @@
   },
   "homepage": "https://github.com/lykmapipo/party",
   "sandbox": {
-    "url": "https://party.herokuapp.com",
+    "url": "https://pa-rty.herokuapp.com",
     "apidoc": "https://lykmapipo.github.io/party/",
     "client_id": "",
     "client_secret": "",
-    "urls": [{
+    "urls": [
+      {
         "resource": "Party",
-        "schema": "https://party.herokuapp.com/v1/parties/schema",
-        "link": "https://party.herokuapp.com/v1/parties",
+        "schema": "https://pa-rty.herokuapp.com/v1/parties/schema",
+        "link": "https://pa-rty.herokuapp.com/v1/parties",
         "scopes": [
           "party:*"
         ],
@@ -54,8 +57,8 @@
       },
       {
         "resource": "Role",
-        "schema": "https://party.herokuapp.com/v1/roles/schema",
-        "link": "https://party.herokuapp.com/v1/roles",
+        "schema": "https://pa-rty.herokuapp.com/v1/roles/schema",
+        "link": "https://pa-rty.herokuapp.com/v1/roles",
         "scopes": [
           "role:*"
         ],
@@ -68,8 +71,8 @@
       },
       {
         "resource": "Permission",
-        "schema": "https://party.herokuapp.com/v1/permissions/schema",
-        "link": "https://party.herokuapp.com/v1/permissions",
+        "schema": "https://pa-rty.herokuapp.com/v1/permissions/schema",
+        "link": "https://pa-rty.herokuapp.com/v1/permissions",
         "scopes": [
           "permission:*"
         ],
