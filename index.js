@@ -73,7 +73,7 @@ const partyRouter =
 
 
 /* export party router */
-exports.apiVersion = partyRouter.apiVersion;
+exports.apiVersion = partyRouter.version;
 exports.partyRouter = partyRouter;
 exports.roleRouter = roleRouter;
 exports.permissionRouter = permissionRouter;

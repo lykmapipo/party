@@ -18,7 +18,7 @@ describe('Party Rest API', function () {
 
   it('should handle HTTP POST on /parties', (done) => {
     request(app)
-      .post(`/v${apiVersion}/parties`)
+      .post(`/${apiVersion}/parties`)
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/json')
       .send(party)
@@ -42,7 +42,7 @@ describe('Party Rest API', function () {
 
   it('should handle HTTP GET on /parties', (done) => {
     request(app)
-      .get(`/v${apiVersion}/parties`)
+      .get(`/${apiVersion}/parties`)
       .set('Accept', 'application/json')
       .expect(200)
       .expect('Content-Type', /json/)
@@ -65,7 +65,7 @@ describe('Party Rest API', function () {
 
   it('should handle HTTP GET on /parties/id:', (done) => {
     request(app)
-      .get(`/v${apiVersion}/parties/${party._id}`)
+      .get(`/${apiVersion}/parties/${party._id}`)
       .set('Accept', 'application/json')
       .expect(200)
       .end((error, response) => {
@@ -85,7 +85,7 @@ describe('Party Rest API', function () {
   it('should handle HTTP PATCH on /parties/id:', (done) => {
     const { name } = party.fakeOnly('name');
     request(app)
-      .patch(`/v${apiVersion}/parties/${party._id}`)
+      .patch(`/${apiVersion}/parties/${party._id}`)
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/json')
       .send({ name })
@@ -110,7 +110,7 @@ describe('Party Rest API', function () {
   it('should handle HTTP PUT on /parties/id:', (done) => {
     const { name } = party.fakeOnly('name');
     request(app)
-      .put(`/v${apiVersion}/parties/${party._id}`)
+      .put(`/${apiVersion}/parties/${party._id}`)
       .set('Accept', 'application/json')
       .set('Content-Type', 'application/json')
       .send({ name })
@@ -134,7 +134,7 @@ describe('Party Rest API', function () {
 
   it('should handle HTTP DELETE on /parties/:id', (done) => {
     request(app)
-      .delete(`/v${apiVersion}/parties/${party._id}`)
+      .delete(`/${apiVersion}/parties/${party._id}`)
       .set('Accept', 'application/json')
       .expect(200)
       .end((error, response) => {
