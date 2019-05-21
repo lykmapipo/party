@@ -37,6 +37,7 @@ const { Role, roleRouter } = require('@lykmapipo/role');
 /* declarations */
 const pkg = require(path.join(__dirname, 'package.json'));
 const fields = [
+  `${__dirname}/package.json`,
   'name',
   'description',
   'version',
