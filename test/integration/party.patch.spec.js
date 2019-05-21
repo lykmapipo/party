@@ -3,6 +3,7 @@
 
 /* dependencies */
 const path = require('path');
+const _ = require('lodash');
 const { expect } = require('chai');
 const { Party } = require(path.join(__dirname, '..', '..'));
 
@@ -34,11 +35,11 @@ describe('Party Static Patch', () => {
   });
 
   it('should throw if not exists', (done) => {
-    const fake = Party.fake();
-    Party.patch(fake._id, fake, (error, updated) => {
+    const fake = Party.fake().toObject();
+    Party.patch(fake._id, _.omit(fake, '_id'), (error, updated) => {
       expect(error).to.exist;
-      expect(error.status).to.exist;
-      expect(error.message).to.be.equal('Not Found');
+      // expect(error.status).to.exist;
+      expect(error.name).to.be.equal('DocumentNotFoundError');
       expect(updated).to.not.exist;
       done();
     });

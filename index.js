@@ -27,7 +27,7 @@
 /* dependencies */
 const path = require('path');
 const _ = require('lodash');
-const app = require('@lykmapipo/express-common');
+const { app, mount } = require('@lykmapipo/express-common');
 const mongoose = require('mongoose');
 require('mongoose-schema-jsonschema')(mongoose);
 const { Permission, permissionRouter } = require('@lykmapipo/permission');
@@ -83,9 +83,9 @@ exports.permissionRouter = permissionRouter;
 Object.defineProperty(exports, 'app', {
   get() {
     /* @todo bind oauth middlewares authenticate, token, authorize */
-    app.mount(permissionRouter);
-    app.mount(roleRouter);
-    app.mount(partyRouter);
+    mount(permissionRouter);
+    mount(roleRouter);
+    mount(partyRouter);
     return app;
   }
 });
