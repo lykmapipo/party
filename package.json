@@ -103,19 +103,19 @@
     "supertest": "^4.0.2"
   },
   "peerDependencies": {
-    "mongoose": ">=5.5.14"
+    "mongoose": ">=5.6.0"
   },
   "dependencies": {
-    "@lykmapipo/env": ">=0.8.1",
-    "@lykmapipo/express-common": ">=0.17.6",
-    "@lykmapipo/permission": ">=0.8.3",
-    "@lykmapipo/role": ">=0.3.4",
+    "@lykmapipo/env": ">=0.9.2",
+    "@lykmapipo/express-common": ">=0.17.8",
+    "@lykmapipo/permission": ">=0.8.4",
+    "@lykmapipo/role": ">=0.3.5",
     "async": ">=3.0.1",
     "lodash": ">=4.17.11",
     "moment": ">=2.24.0",
     "moment-timezone": ">=0.5.25",
-    "mongoose-geojson-schemas": ">=0.10.6",
-    "mongoose-rest-actions": ">=0.28.4",
+    "mongoose-geojson-schemas": ">=0.10.7",
+    "mongoose-rest-actions": ">=0.28.5",
     "mongoose-schema-jsonschema": ">=1.2.1"
   },
   "engines": {
