@@ -1,6 +1,6 @@
 {
   "name": "@lykmapipo/party",
-  "version": "0.1.22",
+  "version": "0.1.23",
   "description": "A representation of an entity describing information about a particular person or organization, consisting of contact information (e.g. name, e-mail addresses, phone numbers) and other descriptive information of interest.",
   "main": "index.js",
   "scripts": {
