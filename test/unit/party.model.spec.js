@@ -2,9 +2,8 @@
 
 
 /* dependencies */
-const path = require('path');
-const { expect } = require('chai');
-const Party = require(path.join(__dirname, '..', '..', 'lib', 'party.model'));
+const { expect } = require('@lykmapipo/mongoose-test-helpers');
+const Party = require('../../lib/party.model');
 
 
 describe('Party Instance', () => {

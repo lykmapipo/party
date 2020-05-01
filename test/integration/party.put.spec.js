@@ -2,10 +2,9 @@
 
 
 /* dependencies */
-const path = require('path');
 const _ = require('lodash');
-const { expect } = require('chai');
-const { Party } = require(path.join(__dirname, '..', '..'));
+const { expect } = require('@lykmapipo/mongoose-test-helpers');
+const { Party } = require('../..');
 
 
 describe('Party Static Put', () => {
